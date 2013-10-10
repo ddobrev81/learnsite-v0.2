@@ -1,0 +1,7 @@
+CREATE TABLE quotes (
+user_id MEDIUMINT UNSIGNED NOT NULL,
+text VARCHAR(500) NOT NULL,
+creation_date TIMESTAMP NOT NULL,
+PRIMARY KEY(user_id)
+);
+
